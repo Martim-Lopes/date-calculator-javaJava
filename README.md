@@ -1,41 +1,41 @@
-﻿# Date Calculator (Java)
+# Date Calculator (Java)
 
-Pequena aplicação em Java para calcular diferenças entre datas e realizar operações básicas com datas.
+Small Java application to calculate differences between dates and perform basic date operations.
 
-## Objetivo
+## Purpose
 
-Criar um utilitário prático que demonstre manipulação de datas em Java e boas práticas de programação orientada a objetos.
+To build a practical utility that demonstrates date handling in Java and object-oriented design.
 
-## Funcionalidades
+## Features
 
-- Calcular diferença entre duas datas (dias, meses, anos)
-- Somar/subtrair dias a uma data
-- Validar datas de entrada
-- Interface simples via terminal (CLI)
+- Calculate the difference between two dates (in days, months, years)
+- Add or subtract days from a given date
+- Validate user input dates
+- Simple command-line interface (CLI) for user interaction
 
-## Tecnologias
+## Technologies
 
-- Linguagem: Java
-- Ferramentas: IntelliJ IDEA (ou outra IDE Java), Git, GitHub
-- APIs/bibliotecas: `java.time` (LocalDate, Period, etc.) ou `java.util.Date`/`Calendar` (conforme usaste)
+- Language: Java
+- Tools: IntelliJ IDEA (or any Java IDE), Git, GitHub
+- APIs/libraries: `java.time` (LocalDate, Period, etc.) or `java.util.Date`/`Calendar` (depending on the implementation)
 
-## Como executar
+## How to Run
 
-1. Garante que tens o **Java 17** (ou versão compatível) instalado.
-2. Clona o repositório:
+1. Make sure you have **Java 17** (or a compatible version) installed.
+2. Clone the repository:
    ```bash
    git clone https://github.com/Martim-Lopes/date-calculator-javaJava.git
    cd date-calculator-javaJava
    ```
-3. Abre o projeto na tua IDE ou compila via terminal:
+3. Open the project in your IDE or compile via terminal:
    ```bash
-   javac src/...  # ajusta ao teu package
-   java ...       # classe principal
+   javac src/...  # adjust to your package
+   java ...       # main class
    ```
-4. Segue as instruções no terminal para inserir datas e escolher operações.
+4. Follow the instructions in the terminal to enter dates and choose operations.
 
-## O que aprendi
+## What I Learned
 
-- Manipulação de datas em Java
-- Design de classes utilitárias e validação de inputs
-- Criação de uma pequena aplicação de linha de comandos com fluxo claro
+- How to handle and manipulate dates in Java
+- Input validation and basic error handling
+- How to design a small command-line application with a clear flow
